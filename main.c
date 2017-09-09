@@ -2,8 +2,6 @@
 #include <stdlib.h>
 
 #define TAM 3
-int mostrarMenu(char[]);
-
 
 int main()
 {
@@ -13,7 +11,6 @@ int main()
     float precio[TAM];
     int opcion;
     int i;
-
 
     do
     {
@@ -51,10 +48,8 @@ int main()
                     printf("\nCodigos: %d\nDescripcion: %s\nPrecio: %f\nStock: %d\n\n",codigo[i],descrip[i],precio[i],stock[i]);
                     }
                 }
-
-    }
+        }
     }while(opcion!=3);
-
     return 0;
 }
 
